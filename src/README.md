@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 败犬文档库
+title: 主页
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg

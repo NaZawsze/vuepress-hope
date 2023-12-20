@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "败犬文档库",
+  description: "记录技术理论以及项目方案的文档库",
 
   theme,
 
