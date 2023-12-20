@@ -4,18 +4,18 @@ export default navbar([
   "/",
   {
     text: "分类",
-    //icon: "lightbulb",
+    icon: "categoryselected",
     prefix: "/categories",
     children: [
       {
         text: "运维",
-        //icon: "lightbulb",
+        icon: "server",
         prefix: "ops/",
         children: ["linux", { text: "Linux", icon: "ellipsis", link: "" }], 
       },
       {
         text: "开发",
-        //icon: "lightbulb",
+        icon: "customize",
         prefix: "dev/",
         children: ["java", { text: "JAVA", icon: "ellipsis", link: "" }],
       },

@@ -1,6 +1,6 @@
 ---
-title: 指南
-icon: lightbulb
+title: 分类
+icon: categoryselected
 ---
 
 ## 功能亮点
