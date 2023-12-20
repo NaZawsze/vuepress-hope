@@ -3,27 +3,27 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "指南",
+    text: "分类",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/categories/",
     children: [
       {
-        text: "Bar",
+        text: "运维",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "ops/",
+        children: ["Linux", { text: "...", icon: "ellipsis", link: "" }],
       },
       {
-        text: "Foo",
+        text: "开发",
         icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "dev/",
+        children: ["JAVA", { text: "...", icon: "ellipsis", link: "" }],
       },
     ],
   },
   {
-    text: "V2 文档",
+    text: "Blog",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://hexo.skybridair.cn",
   },
 ]);
