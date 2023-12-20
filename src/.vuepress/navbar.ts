@@ -12,7 +12,7 @@ export default navbar([
         icon: "server",
         prefix: "ops/",
         //children: ["linux", { text: "Linux", icon: "ellipsis", link: "" }], 
-        children: ["Linux", { icon: "ellipsis", link: "" }], 
+        children: ["Linux", { text: "", icon: "ellipsis", link: "" }], 
       },
       {
         text: "开发",
