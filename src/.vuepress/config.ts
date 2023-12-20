@@ -6,7 +6,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "败犬文档库",
-  description: "记录技术理论以及项目方案的文档库",
+  description: "记录技术理论以及项目方案的文档库.",
 
   theme,
 
