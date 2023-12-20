@@ -5,9 +5,9 @@ icon: server
 
 ## 介绍
 
-我们支持 bar 功能，...
+欢迎来到运维界面
 
 ## 详情
 
-- [ops](ops.md)
-- ...
+- [Linux](linux.md)
+- [Windows](windows.md)
