@@ -1,5 +1,5 @@
 ---
-title: Bar 功能
+title: 运维
 icon: lightbulb
 ---
 
@@ -9,5 +9,5 @@ icon: lightbulb
 
 ## 详情
 
-- [baz](baz.md)
+- [ops](ops.md)
 - ...

@@ -1,13 +1,13 @@
 ---
-title: Foo 功能
+title: 开发
 icon: lightbulb
 ---
 
 ## 介绍
 
-我们支持 foo 功能，...
+开发
 
 ## 详情
 
-- [ray](ray.md)
+- [dev](dev.md)
 - ...

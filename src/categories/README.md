@@ -5,12 +5,12 @@ icon: lightbulb
 
 ## 功能亮点
 
-### Bar
+### Ops
 
-- [baz](bar/baz.md)
+- [ops](ops/ops.md)
 - ...
 
-### Foo
+### Dev
 
-- [ray](foo/ray.md)
+- [dev](dev/dev.md)
 - ...
