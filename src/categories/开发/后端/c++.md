@@ -1,6 +1,6 @@
 ---
-title: java
+title: C++
 icon: circle-info
 ---
 
-java
+C++
