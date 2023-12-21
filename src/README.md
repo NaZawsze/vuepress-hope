@@ -14,17 +14,17 @@ features:
   - title: 前端
     icon: leaf
     details: 前端
-    link: /spring/containerInit.html
+    link: /dev/front-end.html
 
   - title: 后端
     icon: workingDirectory
     details: 后端
-    link: /redis/RedisPlusCaffeine.html
+    link: /dev/back-end.html
 
   - title: 运维
     icon: animation
     details: 运维
-    link: /animate/gcAnimate.html
+    link: /ops/ops.html
 
   - title: 项目
     icon: animation
