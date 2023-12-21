@@ -1,6 +1,6 @@
 ---
-title: linux
+title: Linux
 icon: circle-info
 ---
 
-linux
+Linux

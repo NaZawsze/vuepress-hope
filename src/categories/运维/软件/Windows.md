@@ -1,6 +1,6 @@
 ---
-title: windows
+title: Windows
 icon: circle-info
 ---
 
-windows
+Windows
