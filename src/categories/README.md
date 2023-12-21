@@ -5,12 +5,12 @@ icon: categoryselected
 
 ## 功能亮点
 
-### Ops
+### 运维
 
-- [ops](ops/ops.md)
+- [运维](ops/)
 - ...
 
-### Dev
+### 开发
 
-- [dev](dev/dev.md)
+- [开发](dev/)
 - ...
