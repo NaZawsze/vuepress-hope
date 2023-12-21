@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 
 export default defineUserConfig({
   base: "/",
@@ -10,6 +11,7 @@ export default defineUserConfig({
 
   theme,
 
+  plugins: [autoCatalogPlugin()],
   // Enable it with pwa
   // shouldPrefetch: false,
 });
