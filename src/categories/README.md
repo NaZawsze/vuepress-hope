@@ -7,12 +7,12 @@ icon: lightbulb
 
 ### 开发
 
-- [开发](categories/dev/)
+- [开发](dev/)
 
 ### 运维
 
-- [运维](categories/ops/)
+- [运维](ops/)
 
 ### 人工智能
 
-- [人工智能](categories/ai/)
+- [人工智能](ai/)
