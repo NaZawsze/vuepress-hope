@@ -7,8 +7,8 @@ icon: lightbulb
 
 ### 硬件
 
-- [硬件](categories/ops/hardware/)
+- [硬件](hardware/)
 
 ### 软件
 
-- [软件](categories/ops/software/)
+- [软件](software/)
