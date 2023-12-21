@@ -9,3 +9,4 @@ icon: server
 
 ## 详情
 
+- [硬盘](disk.md)

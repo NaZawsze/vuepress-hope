@@ -14,17 +14,17 @@ features:
   - title: 前端
     icon: leaf
     details: 前端
-    link: /dev/front-end.html
+    link: /dev/front-end
 
   - title: 后端
     icon: workingDirectory
     details: 后端
-    link: /dev/back-end.html
+    link: /dev/back-end
 
   - title: 运维
     icon: animation
     details: 运维
-    link: /ops/ops.html
+    link: /ops/ops
 
   - title: 项目
     icon: animation
