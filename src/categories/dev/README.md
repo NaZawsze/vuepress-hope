@@ -7,8 +7,8 @@ icon: lightbulb
 
 ### 前端
 
-- [前端](categories/dev/front-end/)
+- [前端](front-end/)
 
 ### 后端
 
-- [后端](categories/ops/back-end/)
+- [后端](back-end/)
