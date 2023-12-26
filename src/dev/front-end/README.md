@@ -1,6 +1,6 @@
 ---
 title: 前端开发
-icon: lightbulb
+icon: icon-leaf
 ---
 
 <AutoCatalog />

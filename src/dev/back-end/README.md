@@ -1,6 +1,6 @@
 ---
 title: 后端开发
-icon: lightbulb
+icon: icon-template
 ---
 
 <AutoCatalog />

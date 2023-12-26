@@ -1,6 +1,6 @@
 ---
 title: 运维
-icon: lightbulb
+icon: icon-storage
 ---
 
 ## 方向分类
