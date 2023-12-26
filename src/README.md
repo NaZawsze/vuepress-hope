@@ -14,22 +14,22 @@ features:
   - title: 前端
     icon: leaf
     details: 前端
-    link: /categories/dev/front-end/
+    link: /dev/front-end/
 
   - title: 后端
     icon: workingDirectory
     details: 后端
-    link: /categories/dev/back-end/
+    link: /dev/back-end/
 
   - title: 运维
     icon: animation
     details: 运维
-    link: /categories/ops/
+    link: /ops/
 
-  - title: 项目
+  - title: AI
     icon: animation
-    details: 项目
-    link: 
+    details: 人工智能
+    link: /ai/
 
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope

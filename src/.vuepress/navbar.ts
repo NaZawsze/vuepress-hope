@@ -5,7 +5,7 @@ export default navbar([
   {
     text: "分类",
     icon: "categoryselected",
-    prefix: "/categories",
+    //prefix: "/categories",
     children: [
       {
         text: "开发",
