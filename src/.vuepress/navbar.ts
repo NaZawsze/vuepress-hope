@@ -12,8 +12,8 @@ export default navbar([
         //icon: "customize",
         prefix: "dev/",
         children: [
-          { text: "Java", icon: "java", link: "back-end/java" },
-          { text: "python", icon: "python", link: "back-end/python" },
+          { text: "Java", icon: "java", link: "backstage/java" },
+          { text: "python", icon: "python", link: "backstage/python" },
         ],
       },
       {

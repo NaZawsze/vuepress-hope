@@ -14,12 +14,12 @@ features:
   - title: 前端
     icon: leaf
     details: 前端
-    link: /dev/front-end/
+    link: /dev/forestage
 
   - title: 后端
     icon: template
     details: 后端
-    link: /dev/back-end/
+    link: /dev/backstage/
 
   - title: 运维
     icon: storage
