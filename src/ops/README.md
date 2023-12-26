@@ -1,6 +1,6 @@
 ---
 title: 运维
-icon: icon-storage
+icon: storage
 ---
 
 ## 方向分类

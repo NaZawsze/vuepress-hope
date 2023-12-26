@@ -1,6 +1,6 @@
 ---
 title: 软件运维
-icon: lightbulb
+icon: OS
 ---
 
 <AutoCatalog />

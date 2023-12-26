@@ -1,6 +1,6 @@
 ---
 title: 后端开发
-icon: icon-template
+icon: template
 ---
 
 <AutoCatalog />
