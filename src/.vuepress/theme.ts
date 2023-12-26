@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://docs.skybridair.cn",
 
   author: {
     name: "NaZawsze",
@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "NaZawsze/vuepress-hope",
 
   docsDir: "src",
 
@@ -40,6 +40,7 @@ export default hopeTheme({
   //},
 
   plugins: {
+    // 关闭评论
     // You should generate and use your own comment service
     //comment: {
     //  provider: "Giscus",

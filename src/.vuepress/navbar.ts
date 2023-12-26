@@ -9,7 +9,7 @@ export default navbar([
     children: [
       {
         text: "开发",
-        icon: "customize",
+        //icon: "customize",
         prefix: "dev/",
         children: [
           { text: "Java", icon: "java", link: "back-end/java" },
@@ -18,7 +18,7 @@ export default navbar([
       },
       {
         text: "运维",
-        icon: "server",
+        //icon: "server",
         prefix: "ops/",
         children: [
           { text: "Linux", icon: "linux", link: "software/linux" },
@@ -28,8 +28,18 @@ export default navbar([
     ],
   },
   {
-    text: "Blog",
-    icon: "book",
+    text: "标签",
+    icon: "tag",
+    link: "tag",
+  },
+  {
+    text: "最新更新",
+    icon: "refresh",
+    link: "update",
+  },
+  {
+    text: "博客",
+    icon: "blog",
     link: "https://hexo.skybridair.cn",
   },
 ]);
