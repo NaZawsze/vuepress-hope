@@ -10,10 +10,7 @@ export default hopeTheme({
     url: "https://hexo.skybridair.cn",
   },
 
-  iconAssets: [
-    "https://at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-    "iconfont",
-  ],
+  iconAssets: "https://at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
