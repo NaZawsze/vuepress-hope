@@ -17,7 +17,7 @@ features:
     link: /dev/forestage
 
   - title: 后端
-    icon: template
+    icon: back-stage
     details: 后端
     link: /dev/backstage/
 
