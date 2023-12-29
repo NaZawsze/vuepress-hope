@@ -9,16 +9,14 @@ export default navbar([
     children: [
       {
         text: "开发",
-        //icon: "customize",
         prefix: "dev/",
         children: [
           { text: "Java", icon: "java", link: "backstage/java" },
-          { text: "python", icon: "python", link: "backstage/python" },
+          { text: "Python", icon: "python", link: "backstage/python" },
         ],
       },
       {
         text: "运维",
-        //icon: "server",
         prefix: "ops/",
         children: [
           { text: "Linux", icon: "linux", link: "software/linux" },

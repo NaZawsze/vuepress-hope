@@ -11,15 +11,15 @@ heroText: 败犬的个人文档库
 tagline: 记录技术理论以及项目方案的文档库.
 
 features:
-  - title: 前端
-    icon: leaf
-    details: 前端
-    link: /dev/forestage
+  - title: 开发
+    icon: editor
+    details: 开发
+    link: /dev/
 
-  - title: 后端
-    icon: back-stage
-    details: 后端
-    link: /dev/backstage/
+  - title: 网络
+    icon: network
+    details: 网络
+    link: /network/
 
   - title: 运维
     icon: storage
