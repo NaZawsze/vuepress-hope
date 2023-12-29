@@ -11,7 +11,7 @@ export default defineUserConfig({
   description: "记录技术理论以及项目方案的文档库.",
 
   theme,
-  fullscreen: true,
+  
   plugins: [
     autoCatalogPlugin({
       // 配置选项

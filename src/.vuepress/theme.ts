@@ -173,4 +173,5 @@ export default hopeTheme({
     //   },
     // },
   },
+  fullscreen: true,
 });
