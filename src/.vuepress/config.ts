@@ -16,7 +16,8 @@ export default defineUserConfig({
     autoCatalogPlugin({
       // 配置选项
     }),
-    
+
+    // 搜索插件
     searchProPlugin({
       // 索引全部内容
       indexContent: true,
@@ -32,6 +33,21 @@ export default defineUserConfig({
           formatter: "标签：$content",
         },
       ],
+    }),
+    
+    // 阅读时间与字数统计生成插件
+    readingTimePlugin({
+      // 你的选项
+    }),
+    
+    // Markdown增强功能插件
+    mdEnhancePlugin({
+      // 使用 KaTeX 启用 TeX 支持
+      katex: true,
+    }),
+    // 博客功能插件
+    blogPlugin({
+      //插件选项
     }),
 
   ],
