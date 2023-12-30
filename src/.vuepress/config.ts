@@ -92,7 +92,5 @@ export default defineUserConfig({
         },
       ],
     }),
-    }),
-
   ],
 });
