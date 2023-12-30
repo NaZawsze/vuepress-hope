@@ -79,6 +79,19 @@ export default defineUserConfig({
 
         return info;
       },
+      category: [
+        {
+          key: "tag",
+          getter: ({ frontmatter }) => frontmatter.tag || [],
+          path: "/tag/",
+          layout: "TagMap",
+          frontmatter: () => ({ title: "标签页" }),
+          itemPath: "/tag/:name/",
+          itemLayout: "TagList",
+          itemFrontmatter: (name) => ({ title: `${name}标签` }),
+        },
+      ],
+    }),
     }),
 
   ],
