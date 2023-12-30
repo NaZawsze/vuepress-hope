@@ -52,7 +52,33 @@ export default defineUserConfig({
 
     // 博客功能插件
     blogPlugin({
-      //插件选项
+      filter: ({ filePathRelative, frontmatter }) => {
+        // 舍弃那些不是从 Markdown 文件生成的页面
+        if (!filePathRelative) return false;
+
+        // 舍弃 `archives` 文件夹的页面
+        if (filePathRelative.startsWith("ai/")) return false;
+        if (filePathRelative.startsWith("dev/")) return false;
+        if (filePathRelative.startsWith("network/")) return false;
+        if (filePathRelative.startsWith("ops/")) return false;
+
+        // 舍弃那些没有使用默认布局的页面
+        if (frontmatter.home || frontmatter.layout) return false;
+
+        return true;
+      },
+      // 获取页面信息
+      getInfo: ({ frontmatter, git = {}, data = {} }) => {
+        const info: Record<string, any> = {
+        //  author: frontmatter.author || "",
+          categories: frontmatter.categories || [],
+        // date: frontmatter.date || git.createdTime || null,
+          tags: frontmatter.tags || [],
+        //  excerpt: data.excerpt || "",
+        };
+
+        return info;
+      },
     }),
 
   ],
