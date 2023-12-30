@@ -1,7 +1,11 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { blogPlugin } from "vuepress-plugin-blog2";
+
 
 export default defineUserConfig({
   base: "/",
@@ -45,6 +49,7 @@ export default defineUserConfig({
       // 使用 KaTeX 启用 TeX 支持
       katex: true,
     }),
+
     // 博客功能插件
     blogPlugin({
       //插件选项
